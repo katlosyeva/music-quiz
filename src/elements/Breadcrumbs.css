@@ -1,0 +1,33 @@
+.breadcrumbs {
+  padding: 0 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.7rem;
+  background: #1b1d31;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+  z-index: 2;
+}
+.music-type {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+}
+.gradient-line {
+  background: linear-gradient(
+      270.05deg,
+      rgba(126, 85, 179, 0) 73.26%,
+      #a769c4 85%,
+      #a769c4 99.71%
+    ),
+    linear-gradient(270deg, rgba(255, 255, 255, 0) 48.96%, #ffffff 75.09%),
+    rgba(255, 255, 255, 0.2);
+  height: 0.5rem;
+  border-radius: 0.5rem;
+}
+.border {
+  height: 0.1rem;
+  background: #373b62;
+  border-radius: 5px;
+}
