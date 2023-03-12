@@ -31,3 +31,11 @@
   background: #373b62;
   border-radius: 5px;
 }
+.music-type {
+  color: #dca1f8;
+}
+@media (max-width: 580px) {
+  .music-type {
+    font-size: 12px;
+  }
+}

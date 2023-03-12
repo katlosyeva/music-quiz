@@ -80,7 +80,7 @@ const Audioplayer: React.FC = () => {
       ></audio>
       <div className={classes.buttonContainer}>
         <button onClick={togglePlayPause} className={classes.playPause}>
-          {isPlaying ? <FaPause /> : <FaPlay />}
+          {isPlaying ? <FaPause fontSize="1rem" /> : <FaPlay fontSize="1rem" />}
         </button>
       </div>
 

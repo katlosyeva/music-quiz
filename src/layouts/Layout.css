@@ -1,6 +1,6 @@
 .main-layout {
   position: relative;
-  height: 100vh;
+  height: 100%;
   background-color: black;
   overflow: hidden;
 }
@@ -38,8 +38,8 @@
   position: absolute;
   width: 933px;
   height: 962px;
-  left: 917px;
-  top: 132px;
+  right: 0px;
+  top: 92px;
 
   background: radial-gradient(
     32.48% 31.5% at 50% 50%,

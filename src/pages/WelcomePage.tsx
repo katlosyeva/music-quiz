@@ -1,12 +1,12 @@
 import React from "react";
-import "./WelcomePage.css";
+import classes from "./WelcomePage.module.css";
 import WelcomeForm from "../elements/WelcomeForm";
 import Logo from "../elements/Logo";
 
 function WelcomePage() {
   return (
-    <div className="welcomePagecContainer">
-      <header className="logo">
+    <div className={classes.welcomePageContainer}>
+      <header className={classes.logo}>
         <Logo />
       </header>
       <WelcomeForm />

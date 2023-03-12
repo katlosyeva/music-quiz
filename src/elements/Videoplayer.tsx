@@ -75,14 +75,14 @@ const Videoplayer: React.FC = () => {
     <div className={classes.videoContainer}>
       <video
         // height="450rem"
-        width="100%"
+
         ref={videoPlayer}
         src="..\assets\images\VID_20211002_143624.mp4"
         preload="metadata"
       ></video>
       <div className={classes.controls}>
         <button onClick={togglePlayPause} className={classes.playPause}>
-          {isPlaying ? <FaPause /> : <FaPlay />}
+          {isPlaying ? <FaPause fontSize="1rem" /> : <FaPlay fontSize="1rem" />}
         </button>
         <div className={classes.rangeslider}>
           {/* progress bar */}
@@ -105,31 +105,6 @@ const Videoplayer: React.FC = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className={classes.buttonContainer}>
-        <button onClick={togglePlayPause} className={classes.playPause}>
-          {isPlaying ? <FaPause /> : <FaPlay />}
-        </button>
-      </div>
-
-      <div className={classes.rangeslider}>
-        <div>
-          <input
-            type="range"
-            className={classes.progressBar}
-            defaultValue="0"
-            ref={progressBar}
-            onChange={changeRange}
-          />
-        </div>
-        <div className={classes.timeCounters}>
-          <div className={classes.time}>{calculateTime(currentTime)}</div>
-
-          <div className={classes.duration}>
-            {duration && !isNaN(duration) && calculateTime(duration)}
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

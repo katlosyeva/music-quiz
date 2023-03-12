@@ -1,76 +1,60 @@
-.welcome-form {
-  height: 48.4rem;
-  width: 80%;
+.results {
+  height: 33rem;
+  width: 110rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 3rem;
   padding: 9rem 0px;
   background: #1b1d31;
   border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  margin-top: 2rem;
 }
-.welcome-form__header {
+.image {
+  position: absolute;
+  top: -15.9rem;
+  left: 50%;
+  margin-left: -15.9rem;
+  z-index: 1;
+}
+.score {
+  width: 14.1rem;
+  height: 14.1rem;
+  position: absolute;
+  top: -7.05rem;
+  left: 50%;
+  margin-left: -7.05rem;
+  z-index: 3;
+  background: #373b62;
+  border-radius: 50%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  flex-grow: 1;
+  justify-content: center;
 }
-h1 {
+.score div {
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+.results h1 {
   font-family: "Prompt";
   font-style: normal;
   font-weight: 700;
   font-size: 3rem;
-  line-height: 4.5rem;
-  margin-bottom: 1rem;
 }
 
-p {
+.results p {
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
   opacity: 0.7;
-  text-align: center;
-}
-input {
-  background-color: #1b1d31;
-  width: 80%;
-  height: 6.1rem;
-  border: none;
-  border-bottom: 1px solid #373b62;
-}
-input::placeholder {
-  font-family: "Arial";
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 150%;
-  text-transform: uppercase;
-  text-align: center;
-  color: #ffffff;
-  opacity: 0.5;
+  margin-top: -1rem;
 }
 
-input:hover {
-  border-bottom: 1px solid #ffffff;
-}
-input:focus,
-input:valid {
-  font-family: "Arial";
-  font-weight: 700;
-  font-size: 1.4rem;
-  line-height: 150%;
-  text-align: center;
-  color: #ffffff;
-}
-
-input:focus-visible {
-  outline: none;
-  border-bottom: 1px solid #ffffff;
-}
-.welcome-form button {
-  /* margin-top: 3rem; */
+button {
   display: flex;
   justify-content: center;
   align-items: center;

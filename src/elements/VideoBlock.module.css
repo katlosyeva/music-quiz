@@ -1,7 +1,10 @@
 .videoBlock {
   /* width: 65%;
   height: 100%; */
-  padding-left: 6rem;
+  /* padding-left: 6rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .title {
   font-family: "Prompt";

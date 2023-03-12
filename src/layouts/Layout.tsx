@@ -5,9 +5,11 @@ import "./Layout.css";
 function RootLayout() {
   return (
     <div className="main-layout">
-      <div className="red-rectangle"></div>
-      <div className="blue-rectangle"></div>
-      <div className="green-rectangle"></div>
+      <div>
+        <div className="red-rectangle"></div>
+        <div className="blue-rectangle"></div>
+        <div className="green-rectangle"></div>
+      </div>
       <Outlet />
     </div>
   );
